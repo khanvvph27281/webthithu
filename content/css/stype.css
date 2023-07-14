@@ -1,0 +1,805 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-size: 12px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.demo {
+  min-height: 100px;
+}
+
+.ta {
+  text-align: center;
+}
+
+.mbt {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mbt button {
+  height: 35px;
+  width: 100px;
+  background-color: rgb(226, 195, 195);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.mbt button:hover {
+  background-color: rgb(226, 148, 148);
+}
+
+.mb {
+  margin-bottom: 13px;
+}
+
+.ml {
+  margin-left: 5px;
+}
+
+/* giao diện */
+.row {
+  margin-right: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c4bbdb;
+  height: 50px;
+  margin-bottom: 1px;
+
+}
+
+.menu img {
+  width: 120px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.menu .left {
+  margin-top: 4px;
+}
+
+
+.menu .left ul {
+  margin-left: 30px;
+
+}
+
+.menu .left ul li {
+  display: inline-block;
+  padding: 0 5px;
+  margin-top: 1px;
+
+}
+
+.menu .left ul li a {
+  text-decoration: none;
+  font-size:30px;
+  font-family: cursive;
+  color: black;
+ 
+}
+.ten{
+  
+  margin-bottom: 50px;
+}
+
+.menu .left ul li a:hover {
+  color: tan;
+  cursor: pointer;
+
+}
+
+
+
+
+.menu .right {
+  padding: 0 5px;
+  margin-top: 13px;
+}
+
+.menu .right button {
+  height: 25px;
+  width: 90px;
+  margin-right: 20px;
+  background-color: #d9d9d9;
+ 
+  cursor: pointer;
+  border-radius:20px;
+}
+
+.menu .right button:hover {
+  background-color: rgb(18, 109, 189);
+}
+
+/* menu */
+
+.banner img {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
+.header button {
+
+  height: 25px;
+  width: 90px;
+  margin-top: 25px;
+  margin-right: 20px;
+  background-color: #D9D9D9;
+  border: aliceblue solid 1px;
+  border-radius: 5px;
+}
+
+.header .below button:hover {
+  cursor: pointer;
+}
+
+.product1 button {
+  background: #6AC463;
+  width: 150px;
+  height: 30px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pro1 {
+  background-color: #F9F0F0;
+  line-height: 35px;
+  border-radius: 5px;
+}
+
+.math {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.category {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  margin-left: 190px;
+  margin-right: 190px;
+
+}
+
+.click h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.click img {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.app {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+
+/* thi thu */
+.click_but button {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px #ccc solid;
+  height: 25px;
+}
+
+.click_but button:hover {
+  background-color: #ccc;
+  border: 1px #ccc solid;
+}
+
+.header {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 110px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.box-trai {
+  float: left;
+  width: 13%;
+
+}
+
+.box-phai {
+  margin-left: 2%;
+  width: 87%;
+  float: left;
+}
+.trai{
+  float:left;
+  width: 75%;
+}
+.phai{
+  margin-right: 2%;
+  width: 15%;
+  float:right;
+}
+
+.boxtitle {
+  color: rgb(204, 19, 19);
+  background-color: #eee;
+  border: 1px #ccc solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+}
+
+.boxtitle h3 {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.boxcomment {
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+}
+
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: #eee;
+  border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.menudoc button {
+  float: right;
+  width: 80px;
+}
+
+.menudoc button:hover {
+  background-color: grey;
+}
+
+.share {
+  margin-left: 740px;
+  margin-bottom: 25px;
+}
+
+.share button {
+  margin-left: 11px;
+  background-color: #ccc;
+  border-radius: 3px;
+  height: 25px;
+  width: 70px;
+
+}
+
+.share button:hover {
+  background-color: grey;
+}
+
+.share input {
+  height: 25px;
+  width: 250px;
+}
+
+.binhluan button {
+  float: right;
+  margin-top: 10px;
+  height: 25px;
+}
+
+.binhluan button:hover {
+  background-color: grey;
+}
+
+/* toan */
+
+.header1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.header1 h2 {
+  margin-top: 10px;
+}
+
+.comment ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.comment ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.content {
+  margin-left: 130px;
+}
+
+.title {
+  color: #333;
+  background-color: #eee;
+  border: 1px #ccc solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.title h3 {
+  margin-left: 5px;
+
+}
+
+.answer {
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 170px;
+  line-height: 30px;
+}
+
+.answer input {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.next1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.end2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+ 
+}
+
+.end2 button {
+  width: 120px;
+  background-color: khaki;
+  border-radius: 3px;
+  background-color: rgb(215, 225, 221);
+
+
+}
+
+.next1 button {
+  width: 70 px;
+  margin: 2px;
+  
+}
+.next2 button {
+  width: 25px;
+  margin: 2px;
+  
+}
+
+.same {
+  margin-bottom: 30px;
+}
+
+.boxtitle h3 {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.boxcomment {
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+}
+
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: #eee;
+  border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.menudoc button {
+  float: right;
+  width: 80px;
+}
+
+
+/* buy */
+
+.header {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 130px;
+}
+
+.product3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.product3 img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.content3 {
+  background-color: #D9D9D9;
+  line-height: 30px;
+  min-height: 100px;
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+}
+
+.content3 a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.content3 button {
+  margin-left: 100px;
+  width: 95px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.content3 button:hover {
+  background-color: rgb(200, 190, 190);
+}
+
+/* register */
+.box-title4 {
+  color: #333;
+  background-color: #8EB0EE;
+  border: 1px #ccc solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+  padding: 5px;
+  height: 30px;
+}
+
+.box-content4 {
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 390px;
+  margin-bottom: 25px;
+  padding: 18px;
+}
+
+.box-content4 input {
+  border-radius: 4px;
+  border: 1px black solid;
+}
+
+.formtk4 {
+  line-height: 150%;
+}
+
+.box-content4 input[type="text"] {
+  width: 98%;
+  height: 25px;
+}
+
+input[type="email"] {
+  width: 98%;
+  height: 25px;
+}
+
+input[type="number"] {
+  width: 98%;
+  height: 25px;
+}
+
+.box-content4 button {
+  margin-left: 300px;
+  height: 35px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.register {
+  width: 50%;
+  position: relative;
+  left: 410px;
+  margin-top: 30px;
+
+
+}
+
+.login a {
+  margin-left: 287px;
+  color: black;
+}
+
+.in {
+  margin-left: 235px;
+}
+
+.in a {
+  margin-left: 3px;
+  color: black;
+  margin-right: 3px;
+}
+
+/* login */
+
+
+
+
+.box-title5 {
+  color: #333;
+  background-color: #8EB0EE;
+  border: 1px #ccc solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+}
+
+.box-content5 {
+  border: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 390px;
+  margin-bottom: 25px;
+  padding: 18px;
+}
+
+.formtk {
+  line-height: 150%;
+}
+
+.bt button {
+  margin-left: 300px;
+  height: 35px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+input {
+  border-radius: 4px;
+}
+
+
+input[type="name"] {
+  width: 98%;
+  height: 25px;
+  border: 1px #333 solid;
+}
+
+input[type="password"] {
+  width: 98%;
+  height: 25px;
+  border: 1px #333 solid;
+}
+
+
+.input-group button {
+  border-radius: 55px;
+  position: relative;
+  bottom: 26px;
+  left: 95%;
+  border: 1px white solid;
+}
+
+.login a {
+  margin-left: 287px;
+  color: black;
+}
+
+.in {
+  margin-left: 235px;
+}
+
+.in a {
+  margin-left: 3px;
+  color: black;
+  margin-right: 3px;
+}
+
+
+
+/* footer */
+.footer {
+  background-color: #D9D9D9;
+  margin-top: 30px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 140px;
+}
+
+.footer .one {
+  margin-left: 10px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.footer p {
+  margin-left: 8px;
+}
+
+.app {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+/* drop down */
+
+.ngng img{
+  width: 35px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 13px;
+}
+.right .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+right: 35px;
+display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 105px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+
+}
+.form-control {
+  width: 98%;
+  height: 25px;
+  border: 1px #333 solid;
+ 
+}
+.d-none{
+  display: none;
+}
